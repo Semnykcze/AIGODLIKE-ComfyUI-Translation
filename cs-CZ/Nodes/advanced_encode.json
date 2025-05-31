@@ -1,0 +1,71 @@
+{
+    "BNK_CLIPTextEncodeAdvanced": {
+        "title": "CLIP textový enkodér (BNK)",
+        "inputs": {
+            "clip": "CLIP"
+        },
+        "widgets": {
+            "text": "Text",
+            "token_normalization": "Normalizace tokenů",
+                "none": "Žádná",
+                "length": "Délka",
+                "mean": "Průměr",
+                "length+mean": "Kombinace",
+            "weight_interpretation": "Interpretace váhy"
+        },
+        "outputs": {
+            "CONDITIONING": "Podmínění"
+        }
+    },
+    "BNK_CLIPTextEncodeSDXLAdvanced": {
+        "title": "CLIP textový enkodér (BNK-SDXL)",
+        "inputs": {
+            "clip": "CLIP"
+        },
+        "widgets": {
+            "text_l": "L podmínka",
+            "text_g": "G podmínka",
+            "token_normalization": "Normalizace tokenů",
+                "none": "Žádná",
+                "length": "Délka",
+                "mean": "Průměr",
+                "length+mean": "Kombinace",
+            "weight_interpretation": "Interpretace váhy",
+            "balance": "Rovnováha"
+        },
+        "outputs": {
+            "CONDITIONING": "Podmínění"
+        }
+    },
+    "BNK_AddCLIPSDXLParams": {
+        "title": "Přidání parametrů SDXL",
+        "inputs": {
+            "conditioning": "Podmínění"
+        },
+        "widgets": {
+            "width": "Šířka",
+            "height": "Výška",
+            "crop_w": "Šířka ořezu",
+            "crop_h": "Výška ořezu",
+            "target_width": "Cílová šířka",
+            "target_height": "Cílová výška"
+        },
+        "outputs": {
+            "CONDITIONING": "Podmínění"
+        }
+    },
+    "BNK_AddCLIPSDXLRParams": {
+        "title": "Přidání optimalizovaných parametrů SDXL",
+        "inputs": {
+            "conditioning": "Podmínění"
+        },
+        "widgets": {
+            "width": "Šířka",
+            "height": "Výška",
+            "ascore": "Estetické skóre"
+        },
+        "outputs": {
+            "CONDITIONING": "Podmínění"
+        }
+    }
+}

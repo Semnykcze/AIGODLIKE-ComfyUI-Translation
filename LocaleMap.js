@@ -19,6 +19,10 @@ export const LOCALES = {
      "nativeName": "日本語",
      "englishName": "Japanese"
   },
+  "cs-CZ": {
+    "nativeName": "Čeština",
+    "englishName": "Czech"
+  },
   // "ach": {
   //   "nativeName": "Lwo",
   //   "englishName": "Acholi"
